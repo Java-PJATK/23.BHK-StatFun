@@ -1,5 +1,4 @@
-# BHK-StatFun
-Listing 23 BHK-StatFun/StatFun.java
+# Listing 23 BHK-StatFun/StatFun.java
 
 ```java
 public class StatFun {
