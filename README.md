@@ -50,7 +50,8 @@ public class StatFun {
         if (n%2 == 0) return false;
         // Initialize a boolean variable res to true; it will be used to store the result
         boolean res = true;
-        // Start a loop from 3, incrementing by 2 each time (to check only odd numbers), and continue as long as p squared is less than or equal to n and res is true
+        /* Start a loop from 3, incrementing by 2 each time (to check only odd numbers),
+            and continue as long as p squared is less than or equal to n and res is true */
         for (int p = 3; p*p <= n && res; p += 2)
             // If n is divisible by p, set res to false as n is not a prime number
             if (n%p == 0) res = false;
