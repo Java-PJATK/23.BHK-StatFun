@@ -1,3 +1,5 @@
+Let us now consider an example of two static functions: `isPrime` and `primesBetween`. Of course, as always in Java, they must be placed in a class. The first of these two functions checks if a given number is prime, the second prints prime numbers in a given interval invoking, for each number from the range, the first one.
+
 # Listing 23 BHK-StatFun/StatFun.java
 
 ```java
@@ -77,4 +79,28 @@ public class StatFun {
     }
 }
  
+```
+
+The program above prints:  
+
+```
+2 is prime
+3 is prime
+4 is NOT prime
+5 is prime
+6 is NOT prime
+7 is prime
+8 is NOT prime
+9 is NOT prime
+10 is NOT prime
+11 is prime
+12 is NOT prime
+13 is prime
+14 is NOT prime
+15 is NOT prime
+16 is NOT prime
+17 is prime
+18 is NOT prime
+19 is prime
+20 is NOT prime
 ```
